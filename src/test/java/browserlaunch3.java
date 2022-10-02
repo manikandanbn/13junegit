@@ -117,6 +117,7 @@ public class browserlaunch3  {
 		w.sendKeys("nagaaaaaa");
 		
 		w.accept();
+		driver.manage().window().maximize();
 		
 		driver.close();
 
