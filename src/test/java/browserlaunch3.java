@@ -118,9 +118,10 @@ public class browserlaunch3  {
 		
 		w.accept();
 		
+		driver.close();
+
 		driver.quit();
 		
-		driver.close();
 		
 		
 		
