@@ -117,10 +117,12 @@ public class browserlaunch3  {
 		w.sendKeys("nagaaaaaa");
 		
 		w.accept();
-		
-		driver.quit();
+		driver.manage().window().maximize();
 		
 		driver.close();
+
+		driver.quit();
+		
 		
 		
 		
