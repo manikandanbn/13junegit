@@ -118,6 +118,7 @@ public class browserlaunch3  {
 		
 		w.accept();
 		
+		driver.quit();
 		
 		
 		
