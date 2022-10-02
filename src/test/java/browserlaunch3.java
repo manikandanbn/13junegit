@@ -120,7 +120,7 @@ public class browserlaunch3  {
 		
 		driver.quit();
 		
-		
+		driver.close();
 		
 		
 		
